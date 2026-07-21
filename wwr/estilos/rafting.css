@@ -52,7 +52,7 @@ h1{
     margin-top: 10px;
 }
 
-article{
+.hero article{
     position: absolute;
     background-color: var(--cor-destaque2);
     bottom: 10px;
