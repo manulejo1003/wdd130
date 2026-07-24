@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/rafting.css">
+    <meta name="description"
+      content="Nossa página de contato e formulários para participação de um dos melhores Raftings do Mundo!!!">
+    <meta name="author" content="Manuela Santos">
+    <title>Fale Conosco - EcoRaft</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagens/imagem-rafting.png" alt="logotipo">
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+        <section class="formulario">
+            <h1>Companhia de Rafting EcoRaft</h1>
+            <p>Av. Epitácio Pessoa, 466 - Aparecida</p>
+            <p>Santos - SP</p>
+            <p>+55 13 28452-8548</p>
+            <p>info@correiras.com</p>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.451617516096!2d-46.31246092500509!3d-23.97982437709856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce0244264e401d%3A0xc87b48a61e306ea1!2sAv.%20Dr.%20Epit%C3%A1cio%20Pessoa%2C%20466%20-%20Aparecida%2C%20Santos%20-%20SP%2C%2011030-600!5e0!3m2!1spt-BR!2sbr!4v1784868107661!5m2!1spt-BR!2sbr"
+              width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+            <form>
+                <div class="usuario">
+                    <label for="nome-completo">Nome:</label>
+                    <input type="text" id="nome-completo" name="nome-completo">
+                </div>
+
+                <div class="usuario">
+                    <label for="email-do-usuario">Email:</label>
+                    <input type="email" id="email-do-usuario" name="email-do-usuario">
+                </div>
+
+
+                <div class="radio-grupo">
+                    <p>Propósito da Mensagem</p>
+
+                    <div class="opcoes">
+                        <label for="consulta-geral" class="opcao">
+                        <input type="radio" id="consulta-geral" name="mensagem" value="1">
+                        Consulta Geral</label>
+
+                        <label for="pergunta-sobre-reserva" class="opcao">
+                        <input type="radio" id="pergunta-sobre-reserva" name="mensagem" value="2">
+                        Pergunta Sobre Reserva</label>
+
+                        <label for="sugestao-site" class="opcao">
+                        <input type="radio" id="sugestao-site" name="mensagem" value="3">
+                        Sugestão de Site</label>
+                    </div>
+                </div>
+
+                <div class="texto">
+                    <label for="mensagem1">Mensagem</label>
+                    <textarea name="mensagem1" id="mensagem1"></textarea>
+                </div>
+
+                <div class="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Por favor, me inscreva na newsletter mensal!</label>
+                </div>
+
+                <button type="submit">Entrar em Contato!</button>
+            </form>
+
+        </section>
+
+        <section class="funcionario">
+            <h2>Estamos Aqui para Serví-lo</h2>
+            <figure>
+                <img src="imagens/funcionario1.jpg" alt="rafting-1">
+                <figcaption>Funcionário 1</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/funcionario2.jpg" alt="rafting-2">
+                <figcaption>Funcionário 2</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/funcionario3.avif" alt="rafting-3">
+                <figcaption>Funcionário 3</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>©2026 EcoRaft Manuela Santos</p>
+        <nav class="redes-sociais">
+            <a href="https://facebook.com" target="_blank">
+                <img src="imagens/facebook-logo.svg" alt="logo-facebook">
+            </a>
+            <a href="http://whatsapp.com" target="_blank">
+                <img src="imagens/whatsapp-logo.svg" alt="logo-whatsapp">
+            </a>
+            <a href="http://instagram.com" target="_blank">
+                <img src="imagens/instagram-logo.svg" alt="logo-instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

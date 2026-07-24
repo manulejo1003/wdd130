@@ -74,6 +74,77 @@ header, main, footer{
     position: absolute;
     background-color: var(--cor-destaque2);
     bottom: 10px;
+    padding: 10px;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario > h1 {
+    grid-column: 1 / 4;
+    font-family: var(--fonte-titulo);
+}
+
+.formulario > p{
+    grid-column: 1 / 4;
+    font-family: var(--fonte-body);
+}
+
+iframe{
+    margin: 10px;
+}
+
+.usuario{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.radio-grupo{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: var(--fonte-body);
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.opcao{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.newsletter{
+    margin-top: 10px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #1aaa1a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: #055a05;
 }
 
 .historia{
@@ -91,7 +162,7 @@ header, main, footer{
     width: 200px;
 }
 
-.historia p{
+.historia > p{
     text-align: left;
 }
 
@@ -104,6 +175,13 @@ h2{
 section{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.funcionario{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     text-align: center;
 }
@@ -121,7 +199,7 @@ figure img{
     width: 120px;
 }
 
-nav, p, section, article{
+nav, section, article{
     margin: 16px;
     padding: 8px;
 }
