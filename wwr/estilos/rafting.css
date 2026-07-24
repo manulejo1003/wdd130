@@ -94,6 +94,7 @@ header, main, footer{
 
 iframe{
     margin: 10px;
+    border: 0;
 }
 
 .usuario{
