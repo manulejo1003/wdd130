@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1{
+    margin: 10px;
+    font-size: 20px;
+    color: #931a1a;
+    text-align: center;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: 10px;
+    margin: 10px;
+    border: 1px solid #931a1a;
+    padding: 10px;
+}
+
+legend{
+    padding: 5px;
+    color: #931a1a;
+    font-size: 15px;
+}
+
+label{
+    text-align: center;
+    padding: 10px;
+}
+
+input,select, textarea{
+    padding: 5px;
+    font-size: 18px;
+}
+
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #931a1a;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+/*Seletores de Classe*/
+.item-formulario{
+    display: grid;
+    align-items: center;
+}
+
+.coluna1{
+    grid-template-columns: 1fr 3fr;
+    margin: 0.5rem 0;
+}
+
+.coluna2{
+    grid-template-columns: 1fr 2fr;
+}
