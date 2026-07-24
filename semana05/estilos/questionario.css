@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(34, 74, 109);
+    padding:10px; 
+}
+
+form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    margin: 20px auto;
+    border: 2px solid rgb(34, 74, 109);
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(34, 74, 109);
+    color: #fff;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(68, 142, 207);
+}
